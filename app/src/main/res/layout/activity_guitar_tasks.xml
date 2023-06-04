@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuitarTasksActivity">
+
+    <Button
+        android:id="@+id/guitarButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="647dp"
+        android:onClick="guitarButton1"
+        android:text="Чтение по табам"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/guitarButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="576dp"
+        android:onClick="guitarButton2"
+        android:text="Постановка руки"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guitarButton1" />
+
+    <Button
+        android:id="@+id/guitarButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="497dp"
+        android:onClick="guitarButton3"
+        android:text="Аккорды"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guitarButton2" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="254dp"
+        android:layout_height="303dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="131dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guitarButton3"
+        app:srcCompat="@drawable/_4_246947_guitar_black_and_white_png_clipart" />
+
+    <Button
+        android:id="@+id/backupButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="29dp"
+        android:onClick="backupButton13"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

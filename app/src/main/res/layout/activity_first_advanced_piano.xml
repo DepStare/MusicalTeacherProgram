@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstAdvancedPianoActivity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="211dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="679dp"
+        android:fontFamily="sans-serif-black"
+        android:text="ЗАЧЕМ ПЕДАЛИ НА ПИАНИНО"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="391dp"
+        android:layout_height="371dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="314dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Как называются педали у пианино Педали фортепиано называются так:  Правая – демпферная, поскольку управляет демпферами – подушечками, прикрепленными к каждой клавише. Достаточно музыканту убрать с клавиатуры руки, как струны сразу заглушатся демпферами. При нажатии на педаль подушечки деактивируются, поэтому контраст между утихающим звуком и звучанием струны во время удара по ней молоточка сглаживается. Кроме этого, нажав правую педаль, музыкант запускает вибрирование остальных струн и появление вторичных звуков. Правую педаль еще называют форте – то есть громкой по-итальянски. Левая – сдвигающая, поскольку под ее действием молоточки смещаются вправо, и удар молоточка получают две струны вместо трех. Также уменьшается сила их размаха, и звук становится менее громким, приобретает другой тембр. Третье название педали – пиано, что переводится с итальянского как тихо. Средняя – задерживающая, на педальное фортепиано устанавливается редко, зато часто встречается у рояля. Она избирательно поднимает демпферы, и они работают, пока педаль нажата. При этом другие демпферы не меняют функций."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="270dp"
+        android:layout_height="206dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="93dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:srcCompat="@drawable/play_the_piano_step_22_version_2" />
+
+    <Button
+        android:id="@+id/backupButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="22dp"
+        android:onClick="backupButton10"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

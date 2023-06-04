@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondAdvancedPianoActivity">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="696dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Правильная посадка за пианино"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="387dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="542dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="А) опора на ноги; Б) прямая спина; В) опущенные плечи.  2) Поддерживайте локти: они не должны мешать вашей игре, вся тяжесть руки должна уйти в кончики пальцев. Представьте, что под мышками у вас находится по воздушному шарику.   3) Движения рук должны быть свободными, плавными, не нужно допускать резких рывков. Попробуйте представить, что вы как будто бы плывёте под водой."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="395dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="343dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Есть ещё один очень эффективный способ для людей с крепкими нервами: положите по монетке любого достоинства на кисти рук: когда вы играете, то они должны лежать на них ровно, если монетка упала – то вы слишком резко дёрнули рукой или положение кисти неверное.   4) Пальцы должны находиться ближе к чёрным клавишам.   5) Нажимайте на клавиши подушечками пальцев.   6) Пальцы не должны прогибаться.   7) Держите пальцы вместе, нужно, чтобы они находились в собранном виде.   8) После исполнения каждого звука подвешивайте вашу кисть в воздухе, снимая напряжение в руке."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="392dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="275dp"
+        android:background="#E1D887"
+        android:fontFamily="sans-serif-medium"
+        android:text="Правильно играя на пианино, вы сами заметите, что рука чувствует меньше усталости, а занятия стали куда более эффективными."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <Button
+        android:id="@+id/backupButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="backupButton11"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

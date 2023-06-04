@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PianoTasksActivity">
+
+    <Button
+        android:id="@+id/firstStepsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="634dp"
+        android:onClick="firstStepsButton"
+        android:text="Первые шаги"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/secondPartPianoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="561dp"
+        android:onClick="secondPartPianoButton"
+        android:text="Знаки альтерации — изменения высоты тонa звука"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstStepsButton" />
+
+    <Button
+        android:id="@+id/thirdPartPianoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="478dp"
+        android:onClick="thirdPartPianoButton"
+        android:text="Музыкальные гаммы: играем гамму До мажор и другие"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondPartPianoButton" />
+
+    <Button
+        android:id="@+id/fourthPartPianoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="385dp"
+        android:onClick="fourthPartPianoButton"
+        android:text="Заключение "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdPartPianoButton" />
+
+    <Button
+        android:id="@+id/backupButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="33dp"
+        android:onClick="backupButton1"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fourthPartPianoButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdGuitarActivity">
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="696dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Что такое аккорды?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="378dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="521dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="В первую очередь нужно понять – чем же вообще является аккорд? Этот термин общий для всей теории музыки – и проще всего его можно объяснить, как нотное трезвучие. По сути, это одновременное звучание трех нот, выстроенных между собой определенным образом. При этом важно, чтобы они играли одновременно и не были последовательностью тонов – именно при этом условии из трех нот образуется аккорд."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="373dp"
+        android:layout_height="208dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="313dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+        app:srcCompat="@drawable/kak_prochitat_applikaturu_akkorda_jpg" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="383dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="177dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Кроме того, многие точки пронумерованы между собой, и эти цифры соответствуют пальцам, которыми надо зажимать струну.  1 – Указательный палец; 2 – Средний палец; 3 – Безымянный палец; 4 – Мизинец.  Открытая струна либо никак не обозначается, либо же отмечается крестиком или цифрой 0."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="394dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="71dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Когда вы научитесь менять аккорды и уверенно играть песни – попробуйте на некоторых трезвучиях немного обхватить гриф рукой, перекинув большой палец над грифом. Это позволит обрести больше контроля над игрой, а также приглушит нижнюю басовую струну – для чистого звучания аккордов типа D или Am. Помните лишь одно – в процессе игр все руки должны быть расслаблены и не перенапрягаться."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <Button
+        android:id="@+id/backupButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="1dp"
+        android:onClick="backupButton16"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+</androidx.constraintlayout.widget.ConstraintLayout>

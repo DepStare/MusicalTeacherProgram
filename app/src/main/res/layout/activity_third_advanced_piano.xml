@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdAdvancedPianoActivity">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="696dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Октавы на пианино"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="362dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="589dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:srcCompat="@drawable/oktavy_na_pianino2_1038x232" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="358dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="385dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Интервалы между двумя одинаковыми нотами называется октавами. Чтобы определить одну из них, достаточно на клавиатуре найти ноту «до» и, двигаясь вниз или вверх по белым клавишам, отсчитать восемь штук, дойдя до следующей одноименной ноты.  С латыни слово «октава» переводится как «восьмой». Эти восемь ступеней разделяют друг от друга ноты двух октав, определяя их частоту – скорость колебания. Например, частота ноты «ля» одной октавы составляет 440 Гц, а частота аналогичной ноты октавой выше равна 880 Гц. Частота нот составляет 2:1 – это соотношение самое приятное для слуха. Стандартное пианино имеет 9 октав, учитывая, что субконтроктава состоит из трех нот, а пятая – из одной."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="382dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="217dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Интервалы между одинаковыми нотами разной частоты – это октавы на фортепиано. Они расположены в том же количестве и таком же порядке, что и на пианино. Вот сколько октав на фортепиано:  Субконтроктава – состоит из трех нот. Контроктава. Большая. Малая. Первая. Вторая. Третья. Четвертая. Пятая – состоит из одной ноты."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="376dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="После того, как музыкант усвоил название октав на фортепиано, стоит играть гаммы – последовательности нот одной октавы. Для учебы лучше всего подойдет до-мажор. Стоит начинать с одной руки, последовательно и медленно, с правильной расстановкой пальцев на клавиатуре. Чтобы узнать, как это делается, можно скачать урок. Когда игра гаммы одной рукой будет уверенной и четкой, стоит делать то же самое второй рукой."
+        app:layout_constraintBottom_toTopOf="@+id/backupButton12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <Button
+        android:id="@+id/backupButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="3dp"
+        android:onClick="backupButton12"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

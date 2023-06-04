@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".ThirdGuitarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondGuitarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirstGuitarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuitarTasksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FourthAdvancedPianoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdAdvancedPianoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondAdvancedPianoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirstAdvancedPianoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdvancedPianoTasksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FourthPianoPartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdPianoPartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondPianoPartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirstPianoPartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PianoTasksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PianoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

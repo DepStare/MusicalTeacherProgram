@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstGuitarActivity">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="228dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="694dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Что такое табулатура для гитары"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="354dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="603dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Интернет запись Такой способ распространен на сайтах, где нет возможности записывать табы в специальных программах. В этом случае внешний вид полностью копируется и суть практически не меняется, за исключением способа обозначения приемов игры."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="232dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:srcCompat="@drawable/vidy_tabulatur_internet_zapis_jpg" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="379dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="294dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Обычно в табах гитарный бой обозначается стрелками напротив каждого отдельного аккорда, или их групп. Обратите внимание на то, что они показывают движение с реверсом – то есть стрелка вниз обозначает удар вверх, а вверх – удар вниз. Тот же принцип работает и со струнами – то есть верхняя линия будет первой, а нижняя – шестой."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="162dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:srcCompat="@drawable/oboznachenie_boya_kak_chitat_tabulaturu_png" />
+
+    <Button
+        android:id="@+id/backupButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="backupButton14"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+</androidx.constraintlayout.widget.ConstraintLayout>

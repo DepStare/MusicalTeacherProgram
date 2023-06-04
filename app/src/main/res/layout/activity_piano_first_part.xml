@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstPianoPartActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="387dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="558dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="В принципе не столь важно, на каком виде клавишных инструментов вы будете проходить своё обучение, но я бы настоятельно рекомендовал вам всё же остановить свой выбор именно на пианино: синтезаторы, хоть и компактнее, но имеют существенный недостаток – у большинства из них клавиши уменьшенного типа, они не полновесны и вы не будете чувствовать «отдачи» и, плюс ко всему, они часто ограничиваются тремя-четырьмя октавами."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="382dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="435dp"
+        android:background="#F4D493"
+        android:fontFamily="sans-serif-medium"
+        android:text="Блиц: быстро нажмите на клавишу с нотой Ля!  Готов поспорить, у вас это не вышло. Впечатление, что раз клавиши пианино расположены в порядке До Ре Ми Фа Соль Ля Си, то разобраться в них не стоит труда – это глубочайшее заблуждение. Про чёрные клавиши я и вовсе молчу!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="338dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="11dp"
+        android:src="@drawable/klaviatura_fortepiano_2_oktavy_a_4"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="373dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="98dp"
+        android:text="Посмотрите внимательно и запомните – это основы основ, которые вам нужно будет знать в первую очередь. Сыграйте ноты, называя их, со временем вы сможете мгновенно определить нахождение любой ноты, в будущем, когда вы начнете изучать аккорды, вы еще не раз скажете мне спасибо, что акцентировал ваше внимание на такой, казалось бы, легкотне."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/backupButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="27dp"
+        android:onClick="backupButton2"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

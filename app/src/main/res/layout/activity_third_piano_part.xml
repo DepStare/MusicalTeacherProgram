@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdPianoPartActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="681dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Музыкальные гаммы: играем гамму До мажор и другие"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="376dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="608dp"
+        android:background="#F1DEA4"
+        android:fontFamily="sans-serif-medium"
+        android:text="Гармония –приятная для нашего слуха слаженность нот. Тональность – это набор определённых нот, подчинённых одной главной ноте."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="383dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="318dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Первое, что вам потребуется знать, опираясь на полученные знания – построение мажорных гамм.  Гаммы — это ноты, которые располагаются в определенном порядке. Детям часто объясняют различие между мажором и минором как «веселая» и «грустная» гамма соответственно, но это нельзя назвать полностью верным – ничто не мешает делать грустные песни в мажоре и наоборот. Вот основные их признаки:  Гаммы построены из 8 нот Первая и Восьмая, последняя, ноты совпадают по названию, но по высоте разные (чистая октава) Ноты играются в строгой очерёдности, минимальное расстояние между ними – полутон, а максимальное – тон. Запоминайте внимательно, с помощью этой простой формулы вы сможете сыграть любую мажорную гамму:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="289dp"
+        android:background="#ECE28D"
+        android:fontFamily="sans-serif-medium"
+        android:text="Тон — Тон — Полутон — Тон — Тон — Тон – Полутон"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="383dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="78dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Играются мажорные гаммы следующими пальцами: Большой (1) → Указательный (2) → Средний (3) → («подворачиваете» большой палец) → Большой (1) → Указательный (2) → Средний (3) → Безымянный (4) → Мизинец (5)  Потом обязательно играйте в обратную сторону в обратном порядке: Мизинец (5) → Безымянный (4) → Средний (3) → Указательный (2) → Большой (1) → («перебрасываете» средний (3) палец на позицию перед большим пальцем (1)) → Средний (3) → Указательный (2) → Большой (1)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/backupButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="backupButton5"
+        android:text="Назад"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+</androidx.constraintlayout.widget.ConstraintLayout>
